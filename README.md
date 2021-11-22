@@ -5,6 +5,7 @@ Project for AI subject. Using a small application of Artificial Vision. Python a
 Daniel Hernández
 
 # Usage
+You need to use **pip** to get opencv-contrib-python, imutils and numpy.
 
 This app works in the terminal. Here are the instructions:
 
