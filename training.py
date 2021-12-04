@@ -23,13 +23,7 @@ def train():
                 labels.append(label)
                 faces_data.append(cv2.imread(person_path + '/' + file, 0))
                 image = cv2.imread(person_path + '/' + file, 0)
-                #cv2.imshow('image', image)
-                # cv2.waitKey(10)
         label += 1
-    # cv2.destroyAllWindows()
-    # print('Labels: ', labels)
-    # print('Label 0: ', np.count_nonzero(np.array(labels) == 0))
-    # print('Label 1: ', np.count_nonzero(np.array(labels) == 1))
 
     # Eigen Faces training
     face_recognizer = cv2.face.EigenFaceRecognizer_create()
